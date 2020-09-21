@@ -3,14 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="{{ asset('img/core-img/pestana.png') }}"/>
+        <link rel="icon" type="image/png" href="img/core-img/pestana.png"/>
         <title>Marketplace - BabyStore</title>
         <!-- Styles -->
         {{-- styles --}}
         @include('layouts.marketplace.style')
 
     </head>
-    <body style="background-image: url('img/bg-img/1030.jpg');">
+    <body style="background: #fedbb2;">
         <!--<div class="flex-center position-ref full-height" >
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -49,7 +49,7 @@
                 <!-- Classy Menu -->
                 <nav class="classy-navbar" id="essenceNav">
                     <!-- Logo -->
-                    <a class="nav-brand" href="{{ route('welcome')}}"><img src="{{ asset('img/core-img/suckers.png') }}" alt=""></a>
+                    <a class="nav-brand" href="{{ route('welcome')}}"><img src="img/core-img/suckers.png" alt=""></a>
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
                         <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -343,7 +343,7 @@
                         <div class="single_widget_area d-flex mb-30">
                             <!-- Logo -->
                             <div class="footer-logo mr-50">
-                                <a href="{{ route('welcome') }}"><img src="{{ asset('img/core-img/suckers.png') }}" alt=""></a>
+                                <a href="{{ route('welcome') }}"><img src="img/core-img/suckers.png" alt=""></a>
                             </div>
                             <!-- Footer Menu -->
                             <div class="footer_menu">
